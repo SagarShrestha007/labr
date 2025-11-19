@@ -21,4 +21,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Upload website to S3
-        run: aws s3 sync ./templatemo_578_first_portfolio s3://merobucketver --delete
+        run: aws s3 sync ./public s3://merobucketver --delete
